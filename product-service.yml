@@ -1,3 +1,9 @@
+# product-service.yml
+server:
+  port: 8181
+
 spring:
   datasource:
     url: jdbc:postgresql://postgres-product:5432/product_service
+    username: postgres
+    password: postgres
